@@ -1,0 +1,28 @@
+POST /v1/merchants/search
+{
+    "headerResp": {
+        "reqID": "TMCFEHlmcNPoUxO3QDeH",
+        "reqDtm": "2020-04-17 01:18:28.468",
+        "service": "MerchantSearch",
+        "txnRefID": "",
+        "statusDesc": "Success",
+        "statusCd": "0000"
+    },
+    "content": {
+        "merchant":{
+            "merchantId":"", 
+            "merchantName":"",
+            "merchantOwnerName":"",
+            "merchantCategory":"",
+            "merchantSubCategory":"",
+            "merchantPhoneNumber":"",
+            "merchantAddress":"",
+            "merchantUrl":""
+        },
+        "guardian":{
+            "merchantStatus":"",
+            "merchantStatusDtm":"",
+            "favorite": false
+        }
+    }
+}
